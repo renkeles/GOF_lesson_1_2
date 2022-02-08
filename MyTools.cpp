@@ -134,7 +134,7 @@ namespace MyTools {
     {
         if (logOut.is_open())
         {
-            setCount(1);
+            incCount(1);
             logOut << getCount();
             logOut << " ";
             FileLoggerSingletone::getInstance().WriteToLog(str);
@@ -145,7 +145,7 @@ namespace MyTools {
     {
         if (logOut.is_open())
         {
-            setCount(1);
+            incCount(1);
             logOut << getCount();
             logOut << " ";
             FileLoggerSingletone::getInstance().WriteToLog(str, n);
@@ -156,7 +156,7 @@ namespace MyTools {
     {
         if (logOut.is_open())
         {
-            setCount(1);
+            incCount(1);
             logOut << getCount();
             logOut << " ";
             FileLoggerSingletone::getInstance().WriteToLog(str, d);
