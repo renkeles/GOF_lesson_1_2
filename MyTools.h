@@ -96,7 +96,7 @@ namespace MyTools {
            count = 0;
         }
 
-        void setCount(int n){
+        void incCount(int n){
             count += n;
         }
 
